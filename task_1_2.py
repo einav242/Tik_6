@@ -5,5 +5,4 @@ a = IP()
 a.dst = "10.0.2.3"
 b = ICMP()
 p = a/b
-print("hi")
 send(p)
